@@ -1,0 +1,100 @@
+/*CSS*/
+
+/*para todos el documento*/
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border:0px;
+}
+
+/*para los elementos*/
+h1{
+    font-size: 48px;
+    font-weight: small;
+    padding: 0px 15px 0px 15px;
+}
+h2{
+    font-size: 30px;
+    font-style: inherit;
+    text-align:center;
+}
+
+p{
+    padding: 8px 8px;
+}
+ol{
+    /*sin uso*/
+    list-style: none;
+}
+/*para el elemento por ID*/
+#cabeza{
+    background-color: #e3c773;
+    padding: 10px 10px;
+    color: white;
+}
+
+/* las clases que se pueden asociar a los elementos*/
+.desordenada{
+    list-style: none;
+}
+
+.main{
+    /*sin uso*/
+    /*padding: 0 30px;*/
+}
+
+.seccion-01{
+    background-color:#d8e8d8 ;
+    margin: 15px 15px;
+}
+.seccion-0x{
+    background-color:white ;
+    margin: 15px 15px;
+}
+
+.menu_head{
+  /*pendiente */
+}
+.menu_flotante{
+    /*pendiente, aun no lo logro*/
+    width: 300px;
+    align-content: center;
+}
+.ima_logo{
+    /* Modificando solo el alto, se encuadra la imagen*/
+    height: 30px;
+    
+}
+.ima_icono{
+    height: 20px;
+}
+
+.ima_cocodrilo{
+    height: 300px;
+}
+.ima_alumno{
+    height: 129px;
+    width:min(320px,100%);
+}
+
+.titulo_seccion{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow:5px 5px 7px gray;/*sombra del texto*/
+}
+
+
+
+
+.pie-de-pagina{
+    margin-top: 20px;
+    padding: 0 10px;
+    background-color: #5F9EA0;
+    color: white;
+}
+
+.pie_titsec{
+    font-weight: bold;
+}

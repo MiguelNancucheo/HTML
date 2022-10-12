@@ -4,114 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
     <title>Modificando Pagina</title>
 </head>
 <body>
     <header id="cabeza">
-        <p>Códigofacilito</p>
         <nav id="menu">
-            <ul>
-                <li>Inicio</li>
-                <li>Talleres</li>
-                <li>Explorar Cursos</li>
-                <li>Precios</li>
-                <li>Bootcamps</li>
-                <li>Blog</li>
-            </ul>
+            <a href="https://codigofacilito.com/">
+                <img src="img/Logo.png" class="ima_logo">
+            </a>
+            <a href="">Inicio</a>
+            <a href="">Talleres</a>
+            <a href="">Explora Cursos</a>
+            <a href="">Precios</a>
+            <a href="">Bootcamps</a>
+            <a href="">Blog</a>
+            <input type="text">
+            <button>Registro</button>
+            <button>Ingresar</button>
         </nav>
-        <p>casillero Buscar</p>
-        <p>boton Registro</p>
-        <p>boton Ingresar</p>
     </header>
-    <h1>Aprende programación desde 0 con expertos de la industria</h1>
-    <section id="uno">
-        <p>Aprende desarrollo web con HTML5, CSS y JavaScript. Backend con Python. React, Go, Laravel. Desarrollo móvil con Android, Flutter y mucho más desde tu casa.</p>
-        <p>boton ¡Comienza gratis Ahora!</p>
-        <p>imagen 1</p>
-    </section>
-    <section id="contenido1">
-        <h2>Esto es lo que obtienes en CódigoFacilito</h2>
-        <article id="desde_0">
-            <p>Imagen 2</p>
-            <h3>Aprende desde 0</h3>
-            <p>Programar no tiene que ser tan dificil. Aprende los fundamentos desde cero y obtén una base sólida.</p>
-        </article>
-        <article id="tu_ritmo">
-            <p>Imagen 3</p>
-            <h3>Aprende a tu ritmo</h3>
-            <p>Contamos con más de +1500 horas de contenido para que aprendas más allá de lo básico. Cursos teóricos y prácticos con proyectos.</p>
-        </article>
-        <article id="preparate">
-            <p>Imagen 4</p>
-            <h3>Prepárate para el futuro</h3>
-            <p>Consigue las habilidades que tu carrera profesional necesita e impulsate para un futuro próspero en tecnología.</p>
-        </article>
-    </section>
-    <section id="seccion_flotante">
-        <h2>¿Cómo quieres apender?</h2>
-        <nav id="menu_flotante">
-            <ul>
-                <li>Cursos a mi ritmo</li>
-                <li>Con una guía</li>
-                <li>Talleres prácticos</li>
-            </ul>
+    <main class="main">
+        <section id="uno" class="seccion-01">
+            <h1>Aprende programación desde 0 con expertos de la industria</h1>
+            <p>Aprende desarrollo web con HTML5, CSS y JavaScript. Backend con Python. React, Go, Laravel. Desarrollo móvil con Android, Flutter y mucho más desde tu casa.</p>
+            <button>¡Comienza gratis Ahora!</button>
+            <img src="img/coco1.png" class="ima_cocodrilo">
+        </section>
+        <section id="contenido1" class="seccion-0x">
+            <h2>Esto es lo que obtienes en CódigoFacilito</h2>
+            <article id="desde_0">
+                <p class="titulo_seccion">Aprende desde 0</p>
+                <img src="img/alum-01.svg" alt="" class="ima_alumno">
+                <p>Programar no tiene que ser tan dificil. Aprende los fundamentos desde cero y obtén una base sólida.</p>
+            </article>
+            <article id="tu_ritmo">
+                <p class="titulo_seccion">Aprende a tu ritmo</p>
+                <img src="img/alum-02.svg" alt="" class="ima_alumno">
+                <p>Contamos con más de +1500 horas de contenido para que aprendas más allá de lo básico. Cursos teóricos y prácticos con proyectos.</p>
+            </article>
+            <article id="preparate">
+                <p class="titulo_seccion">Prepárate para el futuro</p>
+                <img src="img/alum-03.svg" alt="" class="ima_alumno">
+                <p>Consigue las habilidades que tu carrera profesional necesita e impulsate para un futuro próspero en tecnología.</p>
+            </article>
+        </section>
+        <section id="seccion_flotante" class="seccion-0x">
+            <h2>¿Cómo quieres aprender?</h2>
+            <nav id="menu_flotante" class="menu_flotante">
+                <a href="">Cursos a mi ritmo</a>
+                <a href="">Con una guía</a>
+                <a href="">Talleres prácticos</a>
+            </nav>
             <article id="tipo_mi_ritmo">Imagnenes...</article>
             <article id="tipo_con_guia">Imagnenes...</article>
             <article id="tipo_taller_prac">Imagnenes...</article>
-        </nav>
-        
-    </section>
-    <aside>
-        <p>Es importante que utilices la vitamina C con un grado de concentración adecuado para la sensibilidad de tu piel, así evitarás daños...</p>
-    </aside>
-    <footer>
-        <p>copyright</p>
+        </section>
+        <aside>
+            <p>Es importante que utilices la vitamina C con un grado de concentración adecuado para la sensibilidad de tu piel, así evitarás daños...</p>
+        </aside>
+    </main>
+    
+    <footer class="pie-de-pagina">
+        <p class="pie_titsec">Copyright</p>
         <section  id="foo_1">
-            <p>imagen x</p>
-            <p>imagenes de redes sociales</p>
-            <p>https://codigofacilito.com/</p>
+            <a href="https://codigofacilito.com/">
+                <img src="img/Logo.png" class="ima_logo">
+            </a>
+            <a href="https://facebook.com/">
+                <img src="img/face.png" class="ima_icono">
+            </a>
+            <a href="https://instagram.com/">
+                <img src="img/insta.png" class="ima_icono">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="img/twit.png" class="ima_icono">
+            </a>
             <p>“Los ordenadores son inútiles. Sólo pueden darte respuestas”</p>
             <p>- Pablo Picasso</p>
         </section>
         <section id="foo_2">
+            <p class="pie_titsec">Planes de estudio</p>
             <nav id="menu_foo_1">
                 <ul>
-                    <li>Planes de estudio</li>
-                    <li>Desarrollo Web Frontend</li>
-                    <li>Desarrollador Javascript</li>
-                    <li>Desarrollador Pythom</li>
-                    <li>Introducción a la programción</li>
-                    <li>Desarrollo con Flutter</li>
-                    <li>Espacialidad de React</li>
-                    <li>Ciencia de Datos</li>
+                    <li class="desordenada">
+                        <a href="">Desarrollo Web Frontend</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Desarrollador Javascript</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Desarrollador Pythom</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Introducción a la programción</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Desarrollo con Flutter</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Espacialidad de React</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Ciencia de Datos</a>
+                    </li>
                 </ul>
             </nav>
         </section>
         <section id="foo_3">
+            <p class="pie_titsec">Código Facilito</p>
             <nav id="menu_foo_1">
                 <ul>
-                    <li>Código</li>
-                    <li>Cursos</li>
-                    <li>Términos y Condiciones</li>
-                    <li>Aviso de privacidad</li>
-                    <li>Contacto</li>
+                    <li class="desordenada">
+                        <a href="">Cursos</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Términos y Condiciones</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="">Aviso de privacidad</a>
+                    </li>
+                    <li class="desordenada">
+                        <a href="mancuch@gmail.com">Contacto</a>
+                    </li>
                 </ul>
             </nav>
         </section>
         <section id="foo_4">
             <p>Descarga la app</p>
-            <p>imagen x</p>
+            <img src="img/google_play.png" alt="">
             <p>Hecho con corazon desde LATAM para todo el mundo de habla hispana.</p>
         </section>
     </footer>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
